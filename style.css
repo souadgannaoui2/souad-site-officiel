@@ -1,0 +1,152 @@
+body {
+  background-color: beige;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.titre-principal {
+  color: #ff69b4;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  font-family: 'Georgia', serif;
+  letter-spacing: 2px;
+}
+
+.sous-titre {
+  color: orange;
+  text-align: center;
+}
+
+.paragraphe {
+  color: brown;
+}
+
+.image-centree {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.image-centree img {
+  border: 3px solid purple;
+  border-radius: 15px;
+}
+
+.galerie {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.hobby {
+  margin: 10px;
+}
+
+.hobby img {
+  border-radius: 10px;
+}
+
+.hobby p {
+  color: purple;
+  font-weight: bold;
+}
+
+.carte {
+  background-color: white;
+  border: 3px solid pink;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+  max-width: 500px;
+}
+
+.formulaire {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.champ-formulaire {
+  margin-bottom: 15px;
+}
+
+.champ-formulaire label {
+  display: block;
+  color: purple;
+  margin-bottom: 5px;
+}
+
+.champ-formulaire input,
+.champ-formulaire textarea {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid pink;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.champ-formulaire textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.bouton {
+  background-color: pink;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.bouton:hover {
+  background-color: #ff69b4;
+}
+
+/* ===== VERSION MOBILE ===== */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  
+  .titre-principal {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+  
+  .sous-titre {
+    font-size: 20px;
+  }
+  
+  .galerie {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hobby {
+    margin: 20px 0;
+  }
+  
+  .hobby img {
+    width: 200px;
+  }
+  
+  .carte {
+    margin: 10px;
+    padding: 15px;
+  }
+  
+  .formulaire {
+    margin: 10px;
+    padding: 15px;
+  }
+  
+  .bouton {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+}
