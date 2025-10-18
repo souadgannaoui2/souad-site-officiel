@@ -1,0 +1,5 @@
+title: "Site de Souad - Développeuse Web"
+description: "Portfolio personnel de Souad - Passionnée de développement web"
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-sitemap
